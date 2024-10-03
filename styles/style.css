@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --cor-fundo-site: #244B1F;
+    --cor-fonte: #F6F6F6;
+    --cor-efeito: #272727;
+    --fonte-titulo: "'Montserrat', sans-serif"; /* Corrigido: o ponto e vírgula deve estar aqui */
+    --fonte-texto: "'Roboto', sans-serif"; /* Corrigido: o ponto e vírgula deve estar aqui */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-fundo-site);
+
+}
+
+
+
+.cabecalho__menu{
+    display: flex;
+    gap: 12%;
+    justify-content: center;
+}
+
+.menu{
+    font-family: var(--fonte-titulo);
+    color: var(--cor-fonte);
+
+
+    }
+
+.apresentacao{
+    text-align: center;
+    padding: 5%;
+
+}
+
+
+
+
+
+
+
+.apresentacao{
+    font-family: var(--fonte-titulo);
+    color: var(--cor-fonte);
+}
+
+
+
+.rodape{
+    text-align: center;
+    padding: 5%;
+    font-family: var(--fonte-texto);
+    color: var(--cor-fonte);
+
+}
+
+
+
+
+
+
+
