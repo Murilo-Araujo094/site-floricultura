@@ -20,7 +20,7 @@ body{
 
 
 
-.cabecalho__menu{
+.cabecalho-menu{
     display: flex;
     gap: 12%;
     justify-content: center;
@@ -39,7 +39,9 @@ body{
 
 }
 
-
+.apresentacao-conteudo-texto{
+    text-align: center;
+}
 
 
 
