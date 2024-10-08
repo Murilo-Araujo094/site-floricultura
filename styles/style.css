@@ -55,14 +55,18 @@ body{
     padding: 2%;
     font-family: var(--fonte-titulo);
     font-size: 3rem;
-}
-
-.apresentacao-conteudo-texto{
     text-align: center;
     font-family: var(--fonte-texto);
     color: var(--cor-fonte);
-    font-size: 2rem;
+    
 }
+
+.apresentacao-conteudo-texto{
+    
+    text-align: left;
+    font-size: 1.5rem;
+
+} 
 
 
 
@@ -109,11 +113,24 @@ body{
     border: 2px   
 }
  .fotos-logo{
-    width: 500px;          
-    height: 300px;         
+    width: 300px;          
+    height: auto;         
     border-radius: 10px;   
     border: 2px   
+ 
+    
 
  }
 
+.rodape{
+    font-family: var(--fonte-texto);
+    font-size: 20px;
+    color: var(--cor-fonte);
+}
 
+.img-rodape{
+    width: 120;
+    height: 70px;
+    border-radius: 10px;
+    border: 2px;
+}
