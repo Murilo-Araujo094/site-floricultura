@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
-    --cor-fundo-site: #244B1F;
-    --cor-fonte: #F6F6F6;
+    --cor-fundo-site: #27352d; 
+    --cor-fonte: #F5F5DC;
     --cor-efeito: #272727;
     --fonte-titulo: "'Montserrat', sans-serif"; /* Corrigido: o ponto e vírgula deve estar aqui */
     --fonte-texto: "'Roboto', sans-serif"; /* Corrigido: o ponto e vírgula deve estar aqui */
@@ -24,7 +24,19 @@ body{
     display: flex;
     gap: 12%;
     justify-content: center;
+    font-family: var(--fonte-texto);
+    font-size: 1.5rem;
+    color: var(--cor-fonte);
+   
+    
 }
+
+.cabecalho-menu a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: inherit; /* Mantém a cor da fonte definida no menu */
+}
+
+
 
 .menu{
     font-family: var(--fonte-titulo);
@@ -39,8 +51,17 @@ body{
 
 }
 
+.apresentacao-conteudo-titulo{
+    padding: 2%;
+    font-family: var(--fonte-titulo);
+    font-size: 3rem;
+}
+
 .apresentacao-conteudo-texto{
     text-align: center;
+    font-family: var(--fonte-texto);
+    color: var(--cor-fonte);
+    font-size: 2rem;
 }
 
 
@@ -62,9 +83,37 @@ body{
 
 }
 
+.apresentacao-produtos{
+    padding-top: 3%;
+    text-align: center;
+    font-family: var(--fonte-texto);
+    color: var(--cor-fonte);
+    font-size: 2.25rem;
 
+}
 
+.apresentacao-produtos a {
+    text-decoration: none;
+    color: inherit; 
 
+}
 
+.apresentacao-conteudo-texto-produto{
+    padding-top: 0.5%;
+}
+
+.fotos-produtos{
+    width: 300px;          
+    height: 300px;         
+    border-radius: 10px;   
+    border: 2px   
+}
+ .fotos-logo{
+    width: 500px;          
+    height: 300px;         
+    border-radius: 10px;   
+    border: 2px   
+
+ }
 
 
